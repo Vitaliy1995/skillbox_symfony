@@ -8,5 +8,6 @@ $application = new Application();
 
 $application->add(new \App\SayHelloTo());
 $application->add(new \App\RepeatPhrase());
+$application->add(new \App\AskQuestionPrintAnswer());
 
 $application->run();
