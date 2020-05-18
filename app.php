@@ -6,6 +6,6 @@ use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-//$application->add(new GenerateAdminCommand());
+$application->add(new \App\AskQuestionPrintAnswer());
 
 $application->run();
